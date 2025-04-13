@@ -1,0 +1,18 @@
+.preloader-active .preloader-cover{
+    height: 4000px;
+    transform: translate(-50%,-50%) rotate(45deg);
+}
+.preloader-cover{
+    height: 0;
+    width: 4000px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(45deg);
+    background: #131213;
+    position: fixed;
+    z-index: 999;
+    overflow: hidden;
+    transition: .8s cubic-bezier(0.65, 0.05, 0.36, 1) .3s;
+    overflow: hidden;
+    will-change: top, left;
+}
